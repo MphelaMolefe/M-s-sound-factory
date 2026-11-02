@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore audio equipment, sound guidance and event sound services from M's Sound Factory in Polokwane and Limpopo.">
+    <meta name="theme-color" content="#100d1d">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Sound Equipment &amp; Event Audio Services | M's Sound Factory">
+    <meta property="og:description" content="Find audio equipment, sound guidance and event sound services in Polokwane, Limpopo.">
+    <meta property="og:url" content="https://calm-mermaid-20b981.netlify.app/services.html">
+    <title>Sound Equipment &amp; Event Audio Services | M's Sound Factory</title>
+    <link rel="canonical" href="https://calm-mermaid-20b981.netlify.app/services.html">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; media-src 'self'; connect-src 'self'; font-src 'self'; frame-src https://maps.google.com https://www.google.com; form-action 'self' mailto:; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; upgrade-insecure-requests">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body id="top" class="services-page">
+    <video class="service-background-video" autoplay muted loop playsinline preload="metadata" poster="images/speaker.jpeg" aria-hidden="true" tabindex="-1">
+        <source src="images/background-video.mp4" type="video/mp4">
+    </video>
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="brand" href="index.html">M's <span>Sound Factory</span></a>
+            <nav class="site-nav" aria-label="Main navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html" aria-current="page">Services</a>
+                <a href="enquiry.html">Enquiry</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-intro">
+            <p class="eyebrow">Our services</p>
+            <h1>Audio solutions for your needs.</h1>
+            <p class="lead">From choosing equipment to getting helpful guidance, we’re here to make your sound experience easier.</p>
+        </section>
+
+        <section class="service-video-section" aria-labelledby="service-video-heading">
+            <div class="service-video-copy">
+                <p class="eyebrow">Experience the sound</p>
+                <h2 id="service-video-heading">See us in action.</h2>
+                <p>Watch our video to get a closer look at the sound and energy we bring to every event.</p>
+            </div>
+            <div class="service-video-frame">
+                <video controls playsinline preload="none" poster="images/speaker.jpeg">
+                    <source src="images/services-showcase.mp4" type="video/mp4">
+                    Your browser does not support embedded video.
+                </video>
+            </div>
+        </section>
+
+        <section class="service-browser content-section" aria-labelledby="service-browser-heading">
+            <div class="service-browser-heading">
+                <p class="eyebrow">Find the right fit</p>
+                <h2 id="service-browser-heading">Browse our services.</h2>
+            </div>
+            <div class="service-filters">
+                <div>
+                    <label for="service-search">Search services</label>
+                    <input type="search" id="service-search" placeholder="Try “equipment” or “support”">
+                </div>
+                <div>
+                    <label for="service-category">Category</label>
+                    <select id="service-category">
+                        <option value="all">All categories</option>
+                        <option value="equipment">Equipment</option>
+                        <option value="guidance">Guidance</option>
+                        <option value="support">Support</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="service-sort">Sort by</label>
+                    <select id="service-sort">
+                        <option value="az">Name: A to Z</option>
+                        <option value="za">Name: Z to A</option>
+                    </select>
+                </div>
+            </div>
+            <p class="service-results-status" id="service-results-status" role="status" aria-live="polite"></p>
+            <div class="card-grid" id="service-results" aria-label="Filtered services"></div>
+        </section>
+
+        <section class="content-section" data-reveal>
+            <div class="info-card">
+                <h2>Have a question?</h2>
+                <p>Tell us what you’re looking for and we’ll help you take the next step.</p>
+                <a class="button" href="enquiry.html">Make an enquiry</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="site-footer-inner">
+            <p>&copy; <span data-current-year></span> M's Sound Factory</p>
+            <p>Made for better listening.</p>
+            <button class="back-to-top" type="button">Back to top ↑</button>
+        </div>
+    </footer>
+</body>
+
+</html>

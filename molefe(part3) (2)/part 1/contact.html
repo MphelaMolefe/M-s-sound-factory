@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact M's Sound Factory for event sound and audio equipment enquiries in Polokwane, Limpopo. Call, email or get directions.">
+    <meta name="theme-color" content="#100d1d">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Contact M's Sound Factory | Polokwane, Limpopo">
+    <meta property="og:description" content="Get in touch about sound equipment and event audio services in Polokwane, Limpopo.">
+    <meta property="og:url" content="https://calm-mermaid-20b981.netlify.app/contact.html">
+    <title>Contact M's Sound Factory | Polokwane, Limpopo</title>
+    <link rel="canonical" href="https://calm-mermaid-20b981.netlify.app/contact.html">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; media-src 'self'; connect-src 'self'; font-src 'self'; frame-src https://maps.google.com https://www.google.com; form-action 'self' mailto:; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; upgrade-insecure-requests">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body id="top">
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="brand" href="index.html">M's <span>Sound Factory</span></a>
+            <nav class="site-nav" aria-label="Main navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="enquiry.html">Enquiry</a>
+                <a href="contact.html" aria-current="page">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-intro">
+            <p class="eyebrow">Contact</p>
+            <h1>Let's talk sound.</h1>
+            <p class="lead">Send us a message and we’ll get back to you.</p>
+        </section>
+
+        <div class="split-layout">
+            <section class="form-card" aria-label="Contact form">
+                <form action="mailto:mssoundfactory@gmail.com" method="post" enctype="text/plain" data-form-purpose="contact">
+                    <label for="name">Full name</label>
+                    <input type="text" id="name" name="name" autocomplete="name" minlength="2" maxlength="80" required>
+
+                    <label for="email">Email address</label>
+                    <input type="email" id="email" name="email" autocomplete="email" maxlength="254" required>
+
+                    <label for="phone">Phone number (optional)</label>
+                    <input type="tel" id="phone" name="phone" autocomplete="tel" pattern="(?=(?:.*[0-9]){7})[+]?[0-9 ()-]{7,20}" title="Enter at least 7 digits; you may include a leading +, spaces, parentheses, or hyphens.">
+
+                    <label for="message-type">Type of message</label>
+                    <select id="message-type" name="messageType" required>
+                        <option value="" selected disabled>Select a message type</option>
+                        <option value="General question">General question</option>
+                        <option value="Feedback">Feedback</option>
+                        <option value="Service support">Service support</option>
+                        <option value="Other">Other</option>
+                    </select>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" minlength="10" maxlength="2000" required></textarea>
+
+                    <button class="button" type="submit">Send message</button>
+                    <p class="form-response" data-form-response role="status" aria-live="polite"></p>
+                </form>
+            </section>
+
+            <aside class="info-card">
+                <h2>Other ways to reach us</h2>
+                <p><strong>Email</strong><br><a href="mailto:mssoundfactory@gmail.com">mssoundfactory@gmail.com</a></p>
+                <p><strong>Phone</strong><br><a href="tel:+27123456789">+27 12 345 6789</a></p>
+                <p><strong>Address</strong><br>20 Fitzpatric Street, Polokwane, Limpopo</p>
+                <p><strong>Current local time</strong><br><time id="current-time">Loading current time…</time></p>
+            </aside>
+        </div>
+
+        <section class="map-section content-section" aria-labelledby="map-heading">
+            <h2 id="map-heading">Find us</h2>
+            <p class="map-location-note">Approximate location on Fitzpatric Street, Polokwane.</p>
+            <div class="map-frame">
+                <iframe
+                    src="https://maps.google.com/maps?q=-23.9195648%2C29.4422765&amp;z=18&amp;output=embed"
+                    title="Map showing the approximate location on Fitzpatric Street, Polokwane"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <a class="map-link" href="https://www.google.com/maps/dir/?api=1&amp;destination=-23.9195648%2C29.4422765" target="_blank" rel="noopener noreferrer">Get directions to this approximate location</a>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="site-footer-inner">
+            <p>&copy; <span data-current-year></span> M's Sound Factory</p>
+            <p>Made for better listening.</p>
+            <button class="back-to-top" type="button">Back to top ↑</button>
+        </div>
+    </footer>
+</body>
+
+</html>
