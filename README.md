@@ -179,3 +179,114 @@ Background video autoplay depends on browser policy. It is muted intentionally s
 - Use relative paths from each HTML page when adding new assets.
 - Update the navbar on every page when adding or renaming a page.
 - Use a local server when testing maps, media, and future backend integrations.
+
+M's Sound Factory Website
+Student Information
+Name: Mphela Molefe
+Student Number: ST10529130
+Module: WEDE5020 - Web Development (Introduction)
+Qualification: Diploma in Information Technology
+Institution: The Independent Institute of Education (IIE)
+Submission: Part 1
+
+Project Overview
+M's Sound Factory is a professional audio service business that specialises in providing high-quality sound equipment and technical support for events. The company offers sound hire services for weddings, conferences, parties, live performances, corporate events, and other special occasions.
+The purpose of this website is to establish an online presence for the business, showcase available services, provide company information, and allow potential clients to make enquiries regarding sound equipment rental and event support services.
+This project follows the Web Development module requirements and will be developed over three parts, with new features and improvements added throughout the development process.
+
+Website Goals and Objectives
+Goals
+* Create a professional online presence for M's Sound Factory.
+* Increase brand awareness and visibility.
+* Showcase available sound equipment and services.
+* Provide contact information for client enquiries.
+* Improve customer engagement through an easy-to-use website.
+Objectives
+* Develop a user-friendly website structure.
+* Present clear information about services offered.
+* Ensure responsive and accessible design principles are followed.
+* Create a professional visual identity.
+* Prepare the website for future interactive functionality.
+
+Key Features and Functionality
+Home Page
+* Introduction to M's Sound Factory.
+* Overview of services.
+* Business highlights and promotional content.
+About Us Page
+* Company background.
+* Mission and vision statement.
+* Business values.
+Services Page
+* Detailed descriptions of available sound services.
+* Equipment rental information.
+Gallery Page
+* Images of previous events and equipment setups.
+Contact Page
+* Contact details.
+* Business location information.
+* Enquiry form (to be implemented in later parts).
+
+Timeline and Milestones
+PhaseActivityStatusWeek 1Business selection and planningCompleteWeek 2Research and content gatheringCompleteWeek 3Website structure planningCompleteWeek 4Part 1 documentationCompletePart 2HTML development and implementationPendingPart 3Styling, testing and refinementsPending
+Part 1 Details
+Completed Tasks
+1. Business Selection
+Selected M's Sound Factory as the business for the website project.
+2. Research
+Gathered information regarding:
+* Business services
+* Target audience
+* Industry requirements
+* Competitor analysis
+3. Website Planning
+Planned:
+* Website purpose
+* Website goals
+* Target audience
+* Website content structure
+4. Information Architecture
+Created the sitemap and page structure for future development.
+
+Sitemap
+Home
+?
+??? About Us
+?
+??? Services
+?
+??? Gallery
+?
+??? Contact Us
+
+Changelog
+Version 1.0 - Part 1 Submission
+Added
+* Project overview
+* Website goals and objectives
+* Business information
+* Initial sitemap
+* Website planning documentation
+* Timeline and milestones
+Planned for Part 2
+* HTML page creation
+* Navigation menu
+* Content implementation
+* Images and media integration
+Planned for Part 3
+* CSS styling
+* Responsive design
+* Website testing
+* Final refinements
+
+References
+The Independent Institute of Education. (2026). WEDE5020 Web Development (Introduction) Module Manual. The Independent Institute of Education.
+MDN Web Docs. (2026). HTML: HyperText Markup Language. Available at: https://developer.mozilla.org/ [Accessed Day Month Year].
+MDN Web Docs. (2026). CSS: Cascading Style Sheets. Available at: https://developer.mozilla.org/ [Accessed Day Month Year].
+W3Schools. (2026). HTML Tutorial. Available at: https://www.w3schools.com/html/ [Accessed Day Month Year].
+W3Schools. (2026). CSS Tutorial. Available at: https://www.w3schools.com/css/ [Accessed Day Month Year].
+
+Author
+Mphela Molefe
+ST10529130
+2026
